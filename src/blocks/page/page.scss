@@ -1,0 +1,19 @@
+@font-face {
+  font-family: "Arial-BoldMT";
+  src: url("../fonts/Arial-BoldMT.ttf");
+}
+  
+@font-face {
+  font-family: "ArialMT";
+  src: url("../fonts/ArialMT.ttf");
+}
+.page {
+  background-color: #fff;
+  max-width: 1366px;
+  min-height: 100%;
+  height: auto;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  font-family: "Arial-BoldMT";
+}

@@ -1,0 +1,11 @@
+.page__content {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 61px;
+}
+
+@media screen and (max-width: 970px) {
+    .page__content {
+      flex-direction: column;
+    }
+  }

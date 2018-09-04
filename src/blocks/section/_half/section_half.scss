@@ -1,0 +1,8 @@
+.section_half {
+    width: 50%;
+}
+@media screen and (max-width: 970px) {
+    .section_half {
+        width: 100%;
+    }
+  }

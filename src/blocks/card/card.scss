@@ -1,0 +1,17 @@
+.card {
+    min-width: 200px;
+    height: 120px;
+    background: #F7F7F7;
+    border-radius: 20px;
+    display: flex;
+	flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 14px;
+    &:hover {
+        background: #FFFFFF;
+		box-shadow: 0 2px 6px 0 rgba(197,186,186,0.50);
+		border-radius: 20px;
+		cursor: pointer;
+    }
+}

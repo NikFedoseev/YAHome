@@ -1,0 +1,12 @@
+.nav-pull__icon {
+    display: none;
+    width: 16px;
+    height: 14px;
+    background-image: url("../assets/icon_list_m.png");
+}
+
+@media screen and (max-width: 536px) {
+    .nav-pull__icon {
+        display: inline-block;
+    }
+}
